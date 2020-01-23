@@ -22,11 +22,13 @@ beginShape();
   triangle(470,370,370,470,470,470)
 endShape();
 beginShape();
-vertex(190,190);
-bezierVertex(80, 0, 380, 75, 75, 75);
+vertex(410,410);
+bezierVertex(80, mouseX, 380, 75, 75, 75);
 vertex(410,410)
-bezierVertex(160, 0, 380, 150, 150, 150);
+bezierVertex(160, mouseX, 380, 150, 150, 150);
 vertex(410,410)
-bezierVertex(240, 0, 380, 225, 225, 225);
+bezierVertex(240, mouseX, 380, 225, 225, 225);
+vertex(410,410)
+bezierVertex(320, mouseX, 380, 300, 300, 300);
 endShape();
 }
